@@ -1,0 +1,52 @@
+website notes-:
+non empty tags=<> </>
+empty tags=<>
+List-:
+ol=order list
+ul=unorder list
+ol type=A,a,1
+ul type=circle,fil circle,square
+dl=discription list
+dt=discription data
+dd=
+tr=table row
+td=table data
+th=table hadding
+cell space=cellspacing
+cell space increase=cellpadding
+formating-:
+<center> </center>
+<br>
+<sup> </sup>
+<sub> </sub>
+<i> </i> italic
+<u> </u> underline
+<mark> </mark> highlight
+<hr> horizontal row
+<del></del> delete
+<b></b> bold
+<strong> </strong> bold
+<em> </em>italic
+<caption> </caption> heading
+<table border,cellspacing,cellpadding,align,bgbcolor>
+<select></select>
+<option value>
+<datalist></datalist>
+<option></option>
+<input type="">
+<marquee> behaviour=slide direction=up,down,left,right
+</marquee>
+<fieldset></fieldset>
+<legend>basic info</legend>
+<iframe src=file name frame border=1,2 width=in px hieght=in px>
+</iframe>
+<img src=image width=in px hieght=in px alt=>
+<a href=file name>click me,back,help center</a>
+padding=cell space top,right,bottom,left
+overflow=paragraph in box 
+box sizing=
+coloumn count=coloumn divide
+coloumn gap
+coloumn rule=column line divide color
+h1=heading 1 </h1>
+coloumn span= heading
