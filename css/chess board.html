@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+           margin: 0px;                 
+
+        }
+        .board{
+            width: 97%;
+            height: 143vh;
+            background-color: red;
+        }
+      .box1{
+         width: 170px;
+         height: 120px;
+         background-color: pink;
+         font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+         
+         }
+         .box2{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            margin-left:  ;
+            font-size: 60px;
+            padding: 20px;
+            box-sizing: border-box;
+         }
+         .box3{
+            width: 170px;
+            height: 120px;
+            background-color: pink;
+            font-size: 60px;
+            padding: 20px;
+            box-sizing: border-box;
+         }
+         .box4{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            font-size: 60px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .box5{
+            width: 170px;
+            height: 120px;
+            background-color: pink;
+            font-size: 60px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .box6{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            font-size: 60px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .box7{
+            width: 170px;
+            height: 120px;
+        background-color: pink;
+        font-size: 60px;
+        padding: 20px;
+        box-sizing: border-box;
+        } 
+        .box8{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            font-size: 60px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .box9{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            margin-top: -960px;
+            margin-left: 170px;
+            font-size: 60px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .box10{
+            width: 170px;
+            height: 120px;
+            background-color: pink;
+            margin-top: -120px;
+            margin-left: 340px;
+            font-size: 60px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .box11{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            margin-top: -120px;
+            margin-left: 510px;
+            font-size: 60px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .box12{
+            width: 170px;
+            height: 120px;
+            background-color: pink;
+            margin-top: -120px;
+            margin-left: 680px;
+            font-size: 60px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .box13{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            margin-top: -120px;
+            margin-left: 850px;
+            font-size: 60px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .box14{
+            width: 170px;
+            height: 120px;
+            background-color: pink;
+            margin-top: -120px;
+            margin-left: 1020px;
+            font-size: 60px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .box15{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            margin-top: -120px;
+            margin-left: 1190px;
+            font-size: 60px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+       .box16{
+            width: 170px;
+            height: 120px;
+            background-color: pink;
+            margin-top: -0px;
+            margin-left: 170px;
+            font-size: 60px;
+            padding: 20px;
+            box-sizing: border-box;
+       }
+       .b1{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            margin-top: -0px;
+            margin-left: 170px;
+            font-size: 60px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .b2{
+            width: 170px;
+            height: 120px;
+            background-color: pink;
+            margin-top: -0px;
+            margin-left: 170px; 
+            font-size: 60px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .b3{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            margin-top: -0px;
+            margin-left: 170px;
+            font-size: 60px; 
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .b4{
+            width: 170px;
+            height: 120px;
+            background-color: pink;
+            margin-top: -0px;
+            margin-left: 170px;
+            font-size: 60px; 
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .b5{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            margin-top: -0px;
+            margin-left: 170px;
+            font-size: 60px;  
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .b6{
+            width: 170px;
+            height: 120px;
+            background-color: pink;
+            margin-left: 170px;
+            font-size: 60px;   
+            padding: 20px;
+            box-sizing: border-box;
+
+        }
+      .c1{
+        width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            margin-top: -840px;
+            margin-left: 340px;
+            font-size: 60px;
+            padding: 20px;
+            box-sizing: border-box;
+      }
+      .c2{
+        width: 170px;
+        height: 120px;
+        background-color: pink;
+        margin-left: 340px;
+        font-size: 60px;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      .c3{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 340px;
+        font-size: 60px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .c4{
+        width: 170px;
+        height: 120px;
+        background-color:pink;
+        margin-left: 340px; 
+        font-size: 60px; 
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .c5{
+        width: 170px;
+        height: 120px;
+        background-color: palegoldenrod;
+        margin-left: 340px;
+        font-size: 60px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .c6{
+        width: 170px;
+        height: 120px;
+        background-color:pink;
+        margin-left: 340px;
+        font-size: 60px;
+        padding: 20px;
+        box-sizing: border-box;
+
+    }
+    .c7{
+        width: 170px;
+        height: 120px;
+        background-color: palegoldenrod;
+        margin-left: 340px;
+        font-size: 60px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .d1{
+        width: 170px;
+        height: 120px;
+        background-color: pink;
+        margin-top: -840px;
+        margin-left: 510px; 
+        font-size: 60px;
+        padding: 20px;
+        box-sizing: border-box;
+
+    }
+    .d2{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod; 
+        margin-left: 510px;
+        font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+    }
+    .d3{
+        width: 170px;
+        height: 120px;
+        background-color: pink; 
+        margin-left: 510px;
+        font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+    }
+    .d4{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod; 
+        margin-left: 510px;
+        font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+    }
+    .d5{
+        width: 170px;
+        height: 120px;
+        background-color:pink; 
+        margin-left: 510px;
+        font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+    }
+    .d6{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod; 
+        margin-left: 510px;
+        font-size: 60px;
+        padding: 20px;
+        box-sizing: border-box;
+
+    }
+    .d7{
+        width: 170px;
+        height: 120px;
+        background-color:pink; 
+        margin-left: 510px;
+        font-size: 60px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .e1{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod; 
+        margin-top: -840px;
+        margin-left: 680px;
+        font-size: 60px;
+        padding: 20px;
+        box-sizing: border-box;
+
+    }
+    .e2{
+        width: 170px;
+        height: 120px;
+        background-color:pink;
+        margin-left: 680px;
+        font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+    }
+    .e3{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 680px;
+        font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+    }
+    .e4{
+        width: 170px;
+        height: 120px;
+        background-color:pink;
+        margin-left: 680px;
+        font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+    }
+    .e5{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 680px;
+        font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+        
+
+    }
+    .e6{
+        width: 170px;
+        height: 120px;
+        background-color:pink;
+        margin-left: 680px;
+        font-size: 60px;
+        padding: 20px;
+        box-sizing: border-box;
+
+    }
+    .e7{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 680px;
+        font-size: 60px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .f1{
+        width: 170px;
+        height: 120px;
+        background-color:pink;
+        margin-top: -840px;
+        margin-left: 850px;
+        font-size: 60px;
+        padding: 20px;
+        box-sizing: border-box;
+
+    }
+    .f2{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 850px;
+        font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+    }
+    .f3{
+        width: 170px;
+        height: 120px;
+        background-color:pink;
+        margin-left: 850px;
+        font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+    }
+    .f4{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 850px; 
+        font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+        
+
+    }
+    .f5{
+        width: 170px;
+        height: 120px;
+        background-color:pink;
+        margin-left: 850px;
+        font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+    } 
+    .f6{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 850px;
+        font-size: 60px;
+        padding: 20px;
+        box-sizing: border-box;
+
+    }   
+    .f7{
+        width: 170px;
+        height: 120px;
+        background-color:pink;
+        margin-left: 850px;
+        font-size: 60px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .g1{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-top: -840px;
+        margin-left: 1020px;
+        font-size: 60px;
+        padding: 20px;
+        box-sizing: border-box;
+
+
+    }
+    .g2{
+        width: 170px;
+        height: 120px;
+        background-color:pink;
+        margin-left: 1020px;
+        font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+    }
+    .g3{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 1020px;
+        font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+    }
+    .g4{
+        width: 170px;
+        height: 120px;
+        background-color:pink;
+        margin-left: 1020px;
+        font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+    }
+    .g5{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 1020px;
+        font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+    }
+    .g6{
+        width: 170px;
+        height: 120px;
+        background-color:pink;
+        margin-left: 1020px;
+        font-size: 60px;
+        padding: 20px;
+        box-sizing: border-box;
+
+    }
+    .g7{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 1020px;
+        font-size:  60px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .q1{
+        width: 170px;
+        height: 120px;
+        background-color:pink;
+        margin-top: -840px;
+        margin-left: 1190px;
+        font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+    }
+    .q2{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 1190px;
+        font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+    }
+    .q3{
+        width: 170px;
+        height: 120px;
+        background-color:pink;
+        margin-left: 1190px; font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+
+    }
+    .q4{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 1190px;
+        font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+    }
+    .q5{
+        width: 170px;
+        height: 120px;
+        background-color:pink;
+        margin-left: 1190px;
+        font-size: 60px;
+         padding: 20px;
+         box-sizing: border-box;
+    }
+    .q6{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 1190px;
+        font-size: 60px;
+        padding: 20px;
+        box-sizing: border-box;
+
+    } 
+
+    .q7{
+       width: 170px;
+        height: 120px; 
+        background-color:pink;
+        margin-left: 1190px;
+        font-size: 60px;
+        padding: 20px;
+        box-sizing: border-box;
+
+    }
+            </style>
+</head>
+<body>
+    <div class="board">
+    <div class="box1">&#9814;</div>
+    <div class="box2">&#9817;</div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box5"></div>
+    <div class="box6"></div>
+    <div class="box7">&#9823;</div>
+    <div class="box8">&#9820;</div>
+    <div class="box9">&#9816;</div>
+    <div class="box10">&#9815;</div>
+    <div class="box11">&#9813;</div>
+    <div class="box12">&#9812;</div>
+    <div class="box13">&#9815;</div>
+    <div class="box14">&#9816;</div>
+    <div class="box15">&#9814;</div>
+    <div class="box16">&#9817;</div>
+    <div class="b1"></div>
+    <div class="b2"></div>
+    <div class="b3"></div>
+    <div class="b4"></div>
+    <div class="b5">&#9823;</div>
+    <div class="b6">&#9822;</div>
+    <div class="c1">&#9817;</div>
+    <div class="c2"></div>
+    <div class="c3"></div>
+    <div class="c4"></div>
+    <div class="c5"></div>
+    <div class="c6">&#9823;</div>
+    <div class="c7">&#9821;</div>
+    <div class="d1">&#9817;</div>
+    <div class="d2"></div>
+    <div class="d3"></div>
+    <div class="d4"></div>
+    <div class="d5"></div>
+    <div class="d6">&#9823;</div>
+    <div class="d7">&#9819;</div>
+    <div class="e1">&#9817;</div>
+    <div class="e2"></div>
+    <div class="e3"></div>
+    <div class="e4"></div>
+    <div class="e5"></div>
+    <div class="e6">&#9823;</div>
+    <div class="e7">&#9818;</div>
+    <div class="f1">&#9817;</div>
+     <div class="f2"></div>
+    <div class="f3"></div>
+    <div class="f4"></div>
+    <div class="f5"></div>
+    <div class="f6">&#9823;</div>
+    <div class="f7">&#9821;</div>
+    <div class="g1">&#9817;</div>
+    <div class="g2"></div>
+    <div class="g3"></div>
+    <div class="g4"></div>
+    <div class="g5"></div>
+    <div class="g6">&#9823;</div>
+    <div class="g7">&#9822;</div>
+    <div class="q1">&#9817;</div>
+    <div class="q2"></div>
+    <div class="q3"></div>
+    <div class="q4"></div>
+    <div class="q5"></div>
+    <div class="q6">&#9823;</div>
+    <div class="q7">&#9820;</div>
+    </div>
+    
+</body>
+</html
