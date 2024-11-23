@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+           margin: 0px;                 
+
+        }
+      .board{
+        width: 101%;
+        height: 145vh;
+        background-color: red;
+      }
+      .box1{
+         width: 170px;
+         height: 120px;
+         background-color: black;
+         }
+         .box2{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            margin-left:  ;
+         }
+         .box3{
+            width: 170px;
+            height: 120px;
+            background-color: black;
+
+         }
+         .box4{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+        }
+        .box5{
+            width: 170px;
+            height: 120px;
+            background-color: black;
+        }
+        .box6{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+        }
+        .box7{
+            width: 170px;
+            height: 120px;
+        background-color: black;
+        } 
+        .box8{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+        }
+        .box9{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            margin-top: -960px;
+            margin-left: 170px;
+        }
+        .box10{
+            width: 170px;
+            height: 120px;
+            background-color: black;
+            margin-top: -120px;
+            margin-left: 340px;
+        }
+        .box11{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            margin-top: -120px;
+            margin-left: 510px;
+        }
+        .box12{
+            width: 170px;
+            height: 120px;
+            background-color: black;
+            margin-top: -120px;
+            margin-left: 680px;
+        }
+        .box13{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            margin-top: -120px;
+            margin-left: 850px;
+        }
+        .box14{
+            width: 170px;
+            height: 120px;
+            background-color: black;
+            margin-top: -120px;
+            margin-left: 1020px;
+        }
+        .box15{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            margin-top: -120px;
+            margin-left: 1190px;
+        }
+       .box16{
+            width: 170px;
+            height: 120px;
+            background-color: black;
+            margin-top: -0px;
+            margin-left: 170px;
+       }
+       .b1{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            margin-top: -0px;
+            margin-left: 170px;
+        }
+        .b2{
+            width: 170px;
+            height: 120px;
+            background-color: black;
+            margin-top: -0px;
+            margin-left: 170px;
+        }
+        .b3{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            margin-top: -0px;
+            margin-left: 170px; 
+        }
+        .b4{
+            width: 170px;
+            height: 120px;
+            background-color: black;
+            margin-top: -0px;
+            margin-left: 170px; 
+        }
+        .b5{
+            width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            margin-top: -0px;
+            margin-left: 170px;  
+        }
+        .b6{
+            width: 170px;
+            height: 120px;
+            background-color: black;
+            margin-left: 170px;   
+        }
+      .c1{
+        width: 170px;
+            height: 120px;
+            background-color: palegoldenrod;
+            margin-top: -840px;
+            margin-left: 340px;
+      }
+      .c2{
+        width: 170px;
+        height: 120px;
+        background-color: black;
+        margin-left: 340px;
+      }
+      .c3{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 340px;
+    }
+    .c4{
+        width: 170px;
+        height: 120px;
+        background-color:black;
+        margin-left: 340px;  
+    }
+    .c5{
+        width: 170px;
+        height: 120px;
+        background-color: palegoldenrod;
+        margin-left: 340px;
+    }
+    .c6{
+        width: 170px;
+        height: 120px;
+        background-color:black;
+        margin-left: 340px;
+    }
+    .c7{
+        width: 170px;
+        height: 120px;
+        background-color: palegoldenrod;
+        margin-left: 340px;
+    }
+    .d1{
+        width: 170px;
+        height: 120px;
+        background-color: black;
+        margin-top: -840px;
+        margin-left: 510px; 
+    }
+    .d2{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod; 
+        margin-left: 510px;
+    }
+    .d3{
+        width: 170px;
+        height: 120px;
+        background-color: black; 
+        margin-left: 510px;
+    }
+    .d4{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod; 
+        margin-left: 510px;
+    }
+    .d5{
+        width: 170px;
+        height: 120px;
+        background-color:black; 
+        margin-left: 510px;
+    }
+    .d6{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod; 
+        margin-left: 510px;
+    }
+    .d7{
+        width: 170px;
+        height: 120px;
+        background-color:black; 
+        margin-left: 510px;
+    }
+    .e1{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod; 
+        margin-top: -840px;
+        margin-left: 680px;
+    }
+    .e2{
+        width: 170px;
+        height: 120px;
+        background-color:black;
+        margin-left: 680px;
+    }
+    .e3{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 680px;
+    }
+    .e4{
+        width: 170px;
+        height: 120px;
+        background-color:black;
+        margin-left: 680px;
+    }
+    .e5{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 680px;
+    }
+    .e6{
+        width: 170px;
+        height: 120px;
+        background-color:black;
+        margin-left: 680px;
+    }
+    .e7{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 680px;
+    }
+    .f1{
+        width: 170px;
+        height: 120px;
+        background-color:black;
+        margin-top: -840px;
+        margin-left: 850px;
+    }
+    .f2{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 850px;
+    }
+    .f3{
+        width: 170px;
+        height: 120px;
+        background-color:black;
+        margin-left: 850px;
+    }
+    .f4{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 850px; 
+    }
+    .f5{
+        width: 170px;
+        height: 120px;
+        background-color:black;
+        margin-left: 850px;
+    } 
+    .f6{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 850px;
+    }   
+    .f7{
+        width: 170px;
+        height: 120px;
+        background-color:black;
+        margin-left: 850px;
+    }
+    .g1{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-top: -840px;
+        margin-left: 1020px;
+
+    }
+    .g2{
+        width: 170px;
+        height: 120px;
+        background-color:black;
+        margin-left: 1020px;
+    }
+    .g3{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 1020px;
+    }
+    .g4{
+        width: 170px;
+        height: 120px;
+        background-color:black;
+        margin-left: 1020px;
+    }
+    .g5{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 1020px;
+    }
+    .g6{
+        width: 170px;
+        height: 120px;
+        background-color:black;
+        margin-left: 1020px;
+    }
+    .g7{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 1020px;
+    }
+    .q1{
+        width: 170px;
+        height: 120px;
+        background-color:black;
+        margin-top: -840px;
+        margin-left: 1190px;
+    }
+    .q2{
+        width: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 1190px;
+
+    }
+    .q3{
+        dth: 170px;
+        height: 120px;
+        background-color:black;
+        margin-left: 1190px;
+
+    }
+    .q4{
+        dth: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 1190px;
+
+    }
+    .q5{
+        dth: 170px;
+        height: 120px;
+        background-color:black;
+        margin-left: 1190px;
+
+    }
+    .q6{
+        dth: 170px;
+        height: 120px;
+        background-color:palegoldenrod;
+        margin-left: 1190px;
+
+    } 
+    .q7{
+        dth: 170px;
+        height: 120px; 
+        background-color:black;
+        margin-left: 1190px;
+
+    }
+            </style>
+</head>
+<body>
+    <div class="board">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box5"></div>
+    <div class="box6"></div>
+    <div class="box7"></div>
+    <div class="box8"></div>
+    <div class="box9"></div>
+    <div class="box10"></div>
+    <div class="box11"></div>
+    <div class="box12"></div>
+    <div class="box13"></div>
+    <div class="box14"></div>
+    <div class="box15"></div>
+    <div class="box16"></div>
+    <div class="b1"></div>
+    <div class="b2"></div>
+    <div class="b3"></div>
+    <div class="b4"></div>
+    <div class="b5"></div>
+    <div class="b6"></div>
+    <div class="c1"></div>
+    <div class="c2"></div>
+    <div class="c3"></div>
+    <div class="c4"></div>
+    <div class="c5"></div>
+    <div class="c6"></div>
+    <div class="c7"></div>
+    <div class="d1"></div>
+    <div class="d2"></div>
+    <div class="d3"></div>
+    <div class="d4"></div>
+    <div class="d5"></div>
+    <div class="d6"></div>
+    <div class="d7"></div>
+    <div class="e1"></div>
+    <div class="e2"></div>
+    <div class="e3"></div>
+    <div class="e4"></div>
+    <div class="e5"></div>
+    <div class="e6"></div>
+    <div class="e7"></div>
+    <div class="f1"></div>
+     <div class="f2"></div>
+    <div class="f3"></div>
+    <div class="f4"></div>
+    <div class="f5"></div>
+    <div class="f6"></div>
+    <div class="f7"></div>
+    <div class="g1"></div>
+    <div class="g2"></div>
+    <div class="g3"></div>
+    <div class="g4"></div>
+    <div class="g5"></div>
+    <div class="g6"></div>
+    <div class="g7"></div>
+    <div class="q1"></div>
+    <div class="q2"></div>
+    <div class="q3"></div>
+    <div class="q4"></div>
+    <div class="q5"></div>
+    <div class="q6"></div>
+    <div class="q7"></div>
+    </div>
+    
+</body>
+</html
